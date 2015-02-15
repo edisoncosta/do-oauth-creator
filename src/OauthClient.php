@@ -11,7 +11,7 @@ class OauthClient
      *
      * @var string
      */
-    protected $endpoint = 'https://cloud.digitalocean.com/v1/oauth/authorize';
+    protected $endpoint = 'https://cloud.digitalocean.com/v1/oauth/token';
 
     /**
      * The client id suppied by DigitalOcean key.
