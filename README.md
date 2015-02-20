@@ -21,4 +21,10 @@ If you're using Laravel 5, then you can register our service provider. Open up `
 
 ## Usage
 
-_coming soon..._
+```
+use WebStax\OauthClient;
+
+$client = new Oauth($clientId);
+$response = $client->get('code');
+
+```
