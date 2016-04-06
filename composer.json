@@ -1,5 +1,5 @@
 {
-    "name": "webstax/do-oauth-creator",
+    "name": "agiuscloud/do-oauth-creator",
     "description": "A php wrapper for creating DigitalOcean client account keys for use with an application.",
     "license": "MIT",
     "keywords": ["DigitalOcean", "Oauth", "PHP", "Laravel"],
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "~5.0"
+        "guzzlehttp/guzzle": "^6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
